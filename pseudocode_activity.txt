@@ -1,0 +1,14 @@
+Start
+
+1. Set time for alarm: 7:00 A.M on Monday-Friday
+-current time=alarm time go to 2 / current time=not alarm time go to 3
+
+2. alarm goes off
+2a. ask user if they want to snooze or stop
+2b. for snooze, snooze for 5 mins and then ask again
+
+3. Wait until current timestamp is equal to alarm time
+
+End
+
+
