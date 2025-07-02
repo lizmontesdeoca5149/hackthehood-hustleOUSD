@@ -43,9 +43,9 @@ print(number_list[0:3])
 print(number_list[-3:])
 
 
-books = {"Author1" : "Omniscient Reader", "Author2" : "Solo Leveling", "Author3" : "Jujutsu Kaisen", "Author4" : "Peppa Pig"} #1
+books = {"Sing Shong" : "Omniscient Reader", "Chu Gong" : "Solo Leveling", "Gege Akutami" : "Jujutsu Kaisen", "Neville Astley" : "Peppa Pig"} #1
 print(books.keys()) #2
 print(books.values()) #3
-print(books.get("Author2")) #4
+print(books.get("Sing Shong")) #4
 books.pop("Omniscient Reader")
 print(books)
