@@ -4,7 +4,7 @@
 #Code Snippet 1:
 # Incorrect:
 x = 10
-y = 0
+y = 5
 result = x / y
 print("Result:", result)
 #Zerodivisionerror
@@ -102,5 +102,5 @@ def divide_numbers(x, y):
    return result
  
 num1 = 10
-num2 = 0 # dividing by zero, u cant do that
+num2 = 3 # dividing by zero, u cant do that
 print(divide_numbers(num1, num2))
